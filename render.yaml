@@ -2,7 +2,7 @@ services:
   - type: web
     name: mon-app-ffmpeg
     env: node # Changez selon votre runtime (python, ruby, etc.)
-    plan: starter # ou le plan de votre choix
+    plan: free # ou le plan de votre choix
     buildCommand: |
       # Mise à jour des packages système
       apt-get update
